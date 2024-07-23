@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax website</title>
+    <style>
+        html,body {
+            height: 100%;
+            margin: 0;
+            font-size: 16px;
+            font-family: "lato", sans-serif;
+            font-weight: 400;
+            line-height: 1.8em;
+            color: grey;
+        }
+        .pimg1 {
+            background-image: url(https://th.bing.com/th/id/OIP.eu4sY2GNh90stjD8Vp70kQHaE8?rs=1&pid=ImgDetMain);
+            min-height: 100%; 
+        }
+        .pimg2 {
+            background-image: url(https://w0.peakpx.com/wallpaper/762/518/HD-wallpaper-beautiful-sunset-beautiful-sunset.jpg);
+            min-height: 400px;
+        }
+        .pimg3 {
+            background-image: url(https://th.bing.com/th/id/OIP.ZHEaEn6yqgb76ySxdb3S6gHaE-?rs=1&pid=ImgDetMain);
+            min-height: 400px;
+        }
+        .pimg1,
+        .pimg3,
+        .pimg2{
+            position: relative;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .ptext {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: black;
+            font-size: 27px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+
+        }
+        .textbg{
+            background: rgb(91, 87, 87);
+            color: aliceblue;
+            padding: 20px;
+        }
+        .section{
+            padding: 50px 80px;
+            text-align: center;
+
+        }
+        .section-light{
+            background-color: rgb(255, 248, 248);
+            color: rgb(54, 54, 54);
+        }
+.section-dark{
+    color: white;
+    background-color: rgb(54, 54, 54);
+}
+
+    </style>
+</head>
+<body>
+    <section class="pimg1">
+        <div class="ptext">
+            <span class="textbg">
+                Parallax Website
+            </span>
+        </div>
+    </section>
+    <section class="section section-light">
+        <h2>Section one</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quisquam facere tempora provident velit minima. Enim dolorum, asperiores praesentium iure dolores voluptatum hic ut ullam accusantium iste cum est assumenda corporis quia nisi culpa. Laboriosam, tempora sequi! Cupiditate saepe iste iusto, asperiores laudantium corrupti, molestiae omnis accusantium, eligendi aliquid reprehenderit!</p>
+    </section>
+    <section class="pimg2">
+        <div class="ptext">
+            <span class="textbg">
+                Explore Nature
+            </span>
+        </div>
+    </section>
+    <section class="section section-dark">
+        <h2>Section one</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quisquam facere tempora provident velit minima. Enim dolorum, asperiores praesentium iure dolores voluptatum hic ut ullam accusantium iste cum est assumenda corporis quia nisi culpa. Laboriosam, tempora sequi! Cupiditate saepe iste iusto, asperiores laudantium corrupti, molestiae omnis accusantium, eligendi aliquid reprehenderit!</p>
+    </section>
+    <section class="pimg3">
+        <div class="ptext">
+            <span class="textbg">
+                LOOK INTO NATURE
+            </span>
+        </div>
+    </section>
+    <section class="section section-light">
+        <h2>Section Three</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quisquam facere tempora provident velit minima. Enim dolorum, asperiores praesentium iure dolores voluptatum hic ut ullam accusantium iste cum est assumenda corporis quia nisi culpa. Laboriosam, tempora sequi! Cupiditate saepe iste iusto, asperiores laudantium corrupti, molestiae omnis accusantium, eligendi aliquid reprehenderit!</p>
+    </section>
+</body>
+</html>
